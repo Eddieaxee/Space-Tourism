@@ -114,9 +114,9 @@ body {
     font-weight: 400; /* Default weight */
     color: var(--clr-white);
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 2.7px;
     position: relative;
-    padding-bottom: 0.5rem; /* Space for underline */
     display: flex;
     align-items: center;
 }
@@ -136,7 +136,7 @@ body {
     left: 0;
     bottom: 0;
     width: 0;
-    height: 3px;
+    height: 100%;
     background-color: var(--clr-white);
     transition: width 0.3s ease-in-out;
 }
